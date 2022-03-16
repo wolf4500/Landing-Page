@@ -1,0 +1,110 @@
+body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0;
+}
+
+/* Header */
+
+.headercontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.uppercontainer {
+  padding: 10px 64px 64px 64px;
+  background-color: #1f2937;
+}
+
+.logo {
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Bungee Gum Info */
+.gumcontainer {
+  display: flex;
+  margin: 100px 0px;
+  justify-content: center;
+  gap: 32px;
+}
+
+.gumtext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.gumtext button {
+  background-color: lightskyblue;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+.bungee {
+  color: white;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.ability {
+  color: white;
+  max-width: 200px;
+  flex-wrap: wrap;
+}
+
+.gum {
+  border-radius: 12px;
+}
+
+img.gum {
+  width: 450px;
+  height: auto;
+}
+
+div {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Hisoka Facts */
+
+.facts {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 36px;
+}
+
+.pics img {
+  height: auto;
+  width: 300px;
+  border: solid lightskyblue 5px;
+  border-radius: 12px;
+}
+
+.picscontainer {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-bottom: 36px;
+}
+
+.pics {
+  display: flex;
+  max-width: 324px;
+  flex-wrap: wrap;
+}
