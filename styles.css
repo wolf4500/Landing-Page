@@ -21,6 +21,10 @@ body {
   color: white;
   font-size: 22px;
   font-weight: 700;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  color: plum;
 }
 
 .links {
@@ -67,14 +71,11 @@ body {
   flex-wrap: wrap;
 }
 
-.gum {
-  border-radius: 12px;
-  border: solid plum 5px;
-}
-
 img.gum {
   width: 450px;
   height: auto;
+  border-radius: 5px;
+  border: solid plum 5px;
 }
 
 div {
@@ -89,6 +90,7 @@ div {
   font-size: 36px;
   font-weight: bold;
   padding: 36px;
+  color: black;
 }
 
 .pics img {
@@ -133,4 +135,46 @@ div {
   justify-content: flex-end;
   font-style: italic;
   font-family: "Times New Roman", Times, serif;
+}
+
+/* Buy now */
+.outfitcontainer {
+  display: flex;
+  justify-content: center;
+  padding: 64px;
+}
+
+.outfitcont {
+  display: flex;
+  padding: 48px 84px;
+  border-radius: 5px;
+  background-color: black;
+  width: 800px;
+  justify-content: space-between;
+}
+
+.outfitcontainer a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.action {
+  font-size: 24px;
+  color: white;
+}
+
+.smallaction {
+  font-size: 16px;
+  color: white;
+}
+
+.outfitcontainer button {
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  border: solid white 2px;
+  background-color: transparent;
+  width: 100px;
+  height: 50px;
 }
