@@ -20,13 +20,13 @@ body {
 .logo {
   display: flex;
   justify-content: center;
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 700;
   background-color: black;
   border-radius: 10px;
   padding: 5px;
   color: white;
-  width: 100px;
+  width: 125px;
 }
 
 .links {
@@ -38,10 +38,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: black;
   padding: 5px;
   border-radius: 10px;
-  background-color: black;
+  background-color: white;
   text-decoration: none;
   font-size: 22px;
   font-weight: 700;
