@@ -197,7 +197,10 @@ div {
   cursor: pointer;
   color: white;
   border-radius: 5px;
-  border: solid white 2px;
+  border-left: solid white 2px;
+  border-top: solid white 2px;
+  border-right: solid gray 2px;
+  border-bottom: solid gray 2px;
   background-color: plum;
   width: 100px;
   height: 50px;
