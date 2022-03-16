@@ -48,10 +48,11 @@ body {
   justify-content: center;
 }
 .gumtext button {
-  background-color: lightskyblue;
+  background-color: plum;
   padding: 8px;
   border-radius: 5px;
   border: none;
+  cursor: pointer;
 }
 
 .bungee {
@@ -68,6 +69,7 @@ body {
 
 .gum {
   border-radius: 12px;
+  border: solid plum 5px;
 }
 
 img.gum {
@@ -90,10 +92,9 @@ div {
 }
 
 .pics img {
-  height: auto;
+  height: 150px;
   width: 300px;
-  border: solid lightskyblue 5px;
-  border-radius: 12px;
+  border-radius: 10px;
 }
 
 .picscontainer {
@@ -105,6 +106,31 @@ div {
 
 .pics {
   display: flex;
-  max-width: 324px;
+  max-width: 300px;
   flex-wrap: wrap;
+}
+
+/* quote */
+
+.quotecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 36px;
+  width: 500px;
+  height: auto;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-end;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
 }
