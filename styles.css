@@ -76,12 +76,13 @@ body {
   background-color: plum;
   padding: 8px;
   border-radius: 5px;
-  border-right: solid grey 1px;
-  border-bottom: solid grey 1px;
-  border-left: solid white 1px;
-  border-top: solid white 1px;
+  border-right: solid grey 2px;
+  border-bottom: solid grey 2px;
+  border-left: solid white 2px;
+  border-top: solid white 2px;
   cursor: pointer;
   color: white;
+  font-size: 16px;
 }
 
 .bungee {
@@ -106,8 +107,8 @@ body {
 .ability {
   color: white;
   flex-wrap: wrap;
-  font-style: italic;
   max-width: 270px;
+  font-size: 20px;
 }
 
 img.gum {
@@ -234,6 +235,7 @@ div {
   border-right: solid gray 2px;
   border-bottom: solid gray 2px;
   background-color: plum;
+  font-size: 16px;
   width: 100px;
   height: 50px;
 }
