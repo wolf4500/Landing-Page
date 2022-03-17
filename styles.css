@@ -132,8 +132,11 @@ div {
 
 .pics {
   display: flex;
+  flex-direction: column;
   max-width: 300px;
   flex-wrap: wrap;
+  font-style: italic;
+  gap: 16px;
 }
 
 /* quote */
