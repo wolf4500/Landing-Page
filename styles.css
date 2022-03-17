@@ -132,7 +132,8 @@ div {
   background-color: plum;
   font-weight: 900;
   border-radius: 10px;
-  border: solid grey 3px;
+  border: none;
+  box-shadow: 5px 5px #e5e7eb;
 }
 
 .factscontainer {
