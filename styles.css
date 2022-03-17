@@ -26,6 +26,10 @@ body {
   border-radius: 10px;
   padding: 5px;
   color: white;
+  border-left: solid white 1px;
+  border-top: solid white 1px;
+  border-right: solid grey 1px;
+  border-bottom: solid grey 1px;
   width: 125px;
 }
 
@@ -46,6 +50,10 @@ body {
   font-size: 22px;
   font-weight: 700;
   width: 100px;
+  border-left: solid #c3c5c9 2px;
+  border-bottom: solid grey 2px;
+  border-right: solid grey 2px;
+  border-top: solid #c3c5c9 2px;
 }
 
 /* Bungee Gum Info */
@@ -59,13 +67,17 @@ body {
 .gumtext {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  gap: 12px;
 }
+
 .gumtext button {
   background-color: plum;
   padding: 8px;
   border-radius: 5px;
-  border: none;
+  border-right: solid grey 1px;
+  border-bottom: solid grey 1px;
+  border-left: solid white 1px;
+  border-top: solid white 1px;
   cursor: pointer;
   color: white;
 }
@@ -74,12 +86,26 @@ body {
   color: white;
   font-size: 48px;
   font-weight: 900;
+  border-radius: 10px;
+  padding: 24px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.abilitycontainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 24px;
+  border-radius: 10px;
+  gap: 12px;
 }
 
 .ability {
   color: white;
-  max-width: 200px;
   flex-wrap: wrap;
+  font-style: italic;
+  max-width: 270px;
 }
 
 img.gum {
@@ -100,13 +126,13 @@ div {
   justify-content: center;
   font-size: 36px;
   font-weight: bold;
-  padding: 36px;
+  padding: 24px;
   width: 300px;
   color: white;
   background-color: plum;
   font-weight: 900;
   border-radius: 10px;
-  border: none;
+  border: solid grey 3px;
 }
 
 .factscontainer {
