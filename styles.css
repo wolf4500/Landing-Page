@@ -52,10 +52,10 @@ body {
   font-size: 22px;
   font-weight: 700;
   width: 100px;
-  border-left: solid #c3c5c9 2px;
-  border-bottom: solid grey 2px;
-  border-right: solid grey 2px;
-  border-top: solid #c3c5c9 2px;
+  border-left: solid #c3c5c9 1px;
+  border-bottom: solid grey 1px;
+  border-right: solid grey 1px;
+  border-top: solid #c3c5c9 1px;
 }
 
 /* Bungee Gum Info */
@@ -76,10 +76,10 @@ body {
   background-color: plum;
   padding: 8px;
   border-radius: 5px;
-  border-right: solid grey 2px;
-  border-bottom: solid grey 2px;
-  border-left: solid white 2px;
-  border-top: solid white 2px;
+  border-right: solid grey 1px;
+  border-bottom: solid grey 1px;
+  border-left: solid white 1px;
+  border-top: solid white 1px;
   cursor: pointer;
   color: white;
   font-size: 16px;
@@ -147,6 +147,14 @@ div {
   margin: 72px 0px;
 }
 
+.factscontain {
+  display: flex;
+  gap: 36px;
+}
+
+.pattern {
+  height: 100px;
+}
 .pics img {
   height: 150px;
   width: 300px;
