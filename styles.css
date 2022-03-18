@@ -130,7 +130,6 @@ div {
   font-size: 36px;
   font-weight: bold;
   padding: 24px;
-  width: 300px;
   color: white;
   background-color: plum;
   font-weight: 900;
@@ -150,11 +149,13 @@ div {
 .factscontain {
   display: flex;
   gap: 36px;
+  align-items: center;
 }
 
 .pattern {
-  height: 100px;
+  width: 100px;
 }
+
 .pics img {
   height: 150px;
   width: 300px;
